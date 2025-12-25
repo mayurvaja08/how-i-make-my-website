@@ -31,7 +31,8 @@ export default function Hero({ name, role, Color1, setColor1, Color2, setColor2 
 
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.35 }} className="mt-8 flex gap-4">
             <a href="#contact" className="px-6 py-3 rounded-md neon-btn bg-neonBlue text-black font-semibold">Hire Me</a>
-            <a href="/assets/Resume.pdf" download className="px-6 py-3 rounded-md border border-gray-700 text-gray-200 hover:glow-hover">Download CV</a>
+            <a href="https://mayurvaja08.github.io/make-my-portfolio/assets/Resume.pdf"">Download CV</a>
+          {/* download className="px-6 py-3 rounded-md border border-gray-700 text-gray-200 hover:glow-hover */}
           </motion.div>
 
           <div className="mt-8 text-sm text-gray-400">Available for freelance and full-time.</div>
@@ -85,7 +86,7 @@ export default function Hero({ name, role, Color1, setColor1, Color2, setColor2 
           aria-label="Pick color 1"
         />
       </div>
-              <img src="/assets/profile_pic.jpg" alt="profile" className="w-36 h-36 rounded-full object-cover mx-auto border-2 border-solid border-[#122033]" />
+              <img src="https://wallpapers.com/images/featured/lion-pictures-snw3r6217skr1ni5.jpg" alt="profile" className="w-36 h-36 rounded-full object-cover mx-auto border-2 border-solid border-[#122033]" />
               <h3 className="text-center mt-4 font-semibold">Frontend Developer</h3>
               <p className="text-center text-xs text-gray-400 mt-2">I design and develop user-centered experiences.</p>
             </div>
